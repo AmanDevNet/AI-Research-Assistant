@@ -215,15 +215,6 @@ The API will be available at `http://127.0.0.1:8000`. You can access the interac
 
 ---
 
-## Design Rationale (Interview Focus)
-
-1. **Service-Route Separation**: Route controllers (`routes/`) strictly handle FastAPI HTTP protocols, request validation, and status codes. Underlying logic is decoupled into the `services/` layer, making the codebase testable and clean.
-2. **Local Persistence**: ChromaDB is configured with a persistent directory, preventing data loss when restarting the server.
-3. **No Heavy Orchestrator Abstractions**: Bypassed agent orchestration frameworks (like LangGraph or CrewAI) and built-in QA chains in favor of explicit, readable retrieval and prompts. This makes the code transparent, efficient, and easy to explain to recruiters or interviewers.
-4. **Citation Extraction**: Excerpts are cleanly sliced and mapped back to their original 1-indexed document pages, addressing standard RAG hallucinations and UI citation demands.
-
----
-
 ## Future Scope
 
 - **Document Metadata Filtering**: Allow querying based on specific uploaded files or tags.
