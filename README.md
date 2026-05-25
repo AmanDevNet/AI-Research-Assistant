@@ -8,7 +8,7 @@ This repository implements a modular, service-oriented architecture designed to 
 
 ## Architecture Workflow
 
-![Architecture Diagram](../screenshots/architecture_diagram.png)
+![Architecture Diagram](screenshots/architecture_diagram.png)
 
 ```
 User Uploads PDF
@@ -34,20 +34,19 @@ Similarity Retrieval (k=4) → Context Construction
 
 ### Swagger API Overview
 
-![Swagger Overview](../screenshots/swagger_home.png)
+![Swagger Overview](screenshots/swagger_home.png)
 
 ### PDF Upload & Processing
 
-![Upload Endpoint](../screenshots/upload_endpoint.png)
+![Upload Endpoint](screenshots/upload_endpoint.png)
 
 ### Question Answering with Citations
 
-![Question Answering](../screenshots/question_answering.png)
+![Question Answering](screenshots/question_answering.png)
 
 ### Document Summarization
 
-![Summarization](../screenshots/summary_endpoint.png)
-
+![Summarization](screenshots/summary_endpoint.png)
 ---
 
 ## Core Features
